@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/track.js": {
+      "maxDuration": 15,
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/track",
+      "destination": "/api/track"
+    }
+  ]
+}
