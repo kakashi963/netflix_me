@@ -1,5 +1,10 @@
 {
   "name": "netflix_me",
   "version": "1.0.0",
-  "scripts": { "vercel-build": "echo 'Netflix_Me Ready'" }
+  "description": "Netflix_Me Pentest Beacon",
+  "scripts": {
+    "vercel-build": "echo 'Netflix_Me Ready'"
+  },
+  "dependencies": {},
+  "author": "Pentest Team"
 }
