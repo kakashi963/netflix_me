@@ -1,12 +1,15 @@
-# netflix_me
+# Netflix_Me 📺 Pentest Beacon
 
-# Netflix_Me Pentest Beacon 📺
+Serverless cookie/IP beacon for **authorized pentesting only**.
 
-Serverless cookie/IP tracker for authorized pentesting.
-
-## 🚀 Quick Deploy
+## 🚀 3-Minute Deploy
 
 ```bash
-git clone [your-repo]
+# 1. Fork/Clone this repo
+git clone https://github.com/YOUR_USERNAME/netflix_me
 cd netflix_me
+
+# 2. Vercel deploy
+npm i -g vercel
+vercel login
 vercel --prod
