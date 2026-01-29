@@ -1,7 +1,8 @@
 {
   "functions": {
     "api/track.js": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "memory": 128
     }
   },
   "rewrites": [
